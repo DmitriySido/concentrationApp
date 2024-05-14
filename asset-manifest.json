@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/concentrationApp/static/js/main.e2de2fdd.js",
+    "index.html": "/concentrationApp/index.html",
+    "main.e2de2fdd.js.map": "/concentrationApp/static/js/main.e2de2fdd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e2de2fdd.js"
+  ]
+}
