@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/concentrationApp/static/js/main.30c20205.js",
+    "main.js": "/concentrationApp/static/js/main.14272c88.js",
     "index.html": "/concentrationApp/index.html",
-    "main.30c20205.js.map": "/concentrationApp/static/js/main.30c20205.js.map"
+    "main.14272c88.js.map": "/concentrationApp/static/js/main.14272c88.js.map"
   },
   "entrypoints": [
-    "static/js/main.30c20205.js"
+    "static/js/main.14272c88.js"
   ]
 }
