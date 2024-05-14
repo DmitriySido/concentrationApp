@@ -1,0 +1,30 @@
+.side-panel__navigation{
+  padding: 20px 0px 20px 0px;
+  background: rgb(40, 40, 40);
+  height: 100vh;
+  width: 150px;
+  position: fixed;
+  z-index: 10;
+}
+
+.side-panel__item{
+  padding: 10px 0px 10px 0px;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.side-panel__item:hover{
+  transition: all .1s ease-in-out;
+  background: rgb(50, 50, 50);
+  box-shadow: 0 0 10px #f7ffcb2c;
+}
+
+.side-panel__item:hover .side-panel__link{
+  color: #f7ffcb;
+}
+
+.side-panel__link{
+  transition: all .1s ease-in-out;
+  color: #fff;
+  padding: 10px 70px 10px 10px;
+}

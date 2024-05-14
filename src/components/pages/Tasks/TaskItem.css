@@ -1,0 +1,26 @@
+.task-item{
+  color: rgb(40, 40, 40);
+  margin-bottom: 20px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.task-item__inner h2{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.task-item__inner h2 span{
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.task-item__inner p{
+  font-size: 14px;
+  font-weight: 400;
+}

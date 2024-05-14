@@ -1,8 +1,8 @@
-const Settings = () => {
+function Settings(){
 
   return(
-    <div className="settings">
-      Settings
+    <div className="settings pages__wrapper">
+      <h1>Settings page</h1>
     </div>
   )
 }
