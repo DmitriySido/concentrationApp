@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/concentrationApp/static/js/main.9c8762e3.js",
+    "main.css": "/concentrationApp/static/css/main.1d206896.css",
+    "main.js": "/concentrationApp/static/js/main.f0fb8990.js",
     "index.html": "/concentrationApp/index.html",
-    "main.9c8762e3.js.map": "/concentrationApp/static/js/main.9c8762e3.js.map"
+    "main.1d206896.css.map": "/concentrationApp/static/css/main.1d206896.css.map",
+    "main.f0fb8990.js.map": "/concentrationApp/static/js/main.f0fb8990.js.map"
   },
   "entrypoints": [
-    "static/js/main.9c8762e3.js"
+    "static/css/main.1d206896.css",
+    "static/js/main.f0fb8990.js"
   ]
 }
