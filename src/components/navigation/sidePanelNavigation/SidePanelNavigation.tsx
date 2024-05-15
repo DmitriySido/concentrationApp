@@ -11,15 +11,15 @@ function SidePanelNavigation(){
   const sidePanelLinks: IsidePanelLink[] = [
     {
       linkPath: '/',
-      linkName: 'Home'
+      linkName: 'Дамой'
     },
     {
       linkPath: '/tasks',
-      linkName: 'Tasks'
+      linkName: 'Задания'
     },
     {
       linkPath: '/settings',
-      linkName: 'Settings'
+      linkName: 'Настройки'
     },
   ]
 

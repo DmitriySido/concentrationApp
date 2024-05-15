@@ -2,7 +2,7 @@ function Settings(){
 
   return(
     <div className="settings pages__wrapper">
-      <h1>Settings page</h1>
+      <h1>Настройки</h1>
     </div>
   )
 }

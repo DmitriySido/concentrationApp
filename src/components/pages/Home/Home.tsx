@@ -2,7 +2,7 @@ function Home(){
 
   return (
     <div className="home pages__wrapper">
-      <h1>Home Page</h1>
+      <h1>Дамой</h1>
     </div>
   )
 }
