@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/concentrationApp/static/css/main.ab19d526.css",
-    "main.js": "/concentrationApp/static/js/main.b81e53a1.js",
+    "main.css": "/concentrationApp/static/css/main.cf38b611.css",
+    "main.js": "/concentrationApp/static/js/main.b58cbdde.js",
+    "static/media/icon-3d.png": "/concentrationApp/static/media/icon-3d.d4c1e0800a950af91f09.png",
+    "static/media/icon-diamond.png": "/concentrationApp/static/media/icon-diamond.1e5f367c0fd149e55223.png",
+    "static/media/icon-prism.png": "/concentrationApp/static/media/icon-prism.af927fe44235f1b6244a.png",
+    "static/media/icon-hexagonal.png": "/concentrationApp/static/media/icon-hexagonal.fe0b820efadb25c69303.png",
+    "static/media/icon-cone.png": "/concentrationApp/static/media/icon-cone.580dcc34a4773035f9db.png",
     "index.html": "/concentrationApp/index.html",
-    "main.ab19d526.css.map": "/concentrationApp/static/css/main.ab19d526.css.map",
-    "main.b81e53a1.js.map": "/concentrationApp/static/js/main.b81e53a1.js.map"
+    "main.cf38b611.css.map": "/concentrationApp/static/css/main.cf38b611.css.map",
+    "main.b58cbdde.js.map": "/concentrationApp/static/js/main.b58cbdde.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab19d526.css",
-    "static/js/main.b81e53a1.js"
+    "static/css/main.cf38b611.css",
+    "static/js/main.b58cbdde.js"
   ]
 }
