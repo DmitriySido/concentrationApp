@@ -1,23 +1,24 @@
-import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './IntroductoryPopup.css'
 
 interface IIntroductoryPopupProps{
-  updateState: (state: boolean) => void;
+  updateState: (state: boolean) => void,
+  secondInformation: string,
+  firstInformation: string,
+  taskID: string,
 }
 
-const IntroductoryPopup = ({updateState} : IIntroductoryPopupProps) => {
-
-  const handleClick = () => {
-    updateState(false);
-  };
+const IntroductoryPopup = ({updateState, secondInformation, firstInformation, taskID} : IIntroductoryPopupProps) => {
+  const handleClick = () => { updateState(false) }
 
   return(
     <div className='introductory-popup__wrapper'>
+      <button className='button-close'>Обратно</button>
       <div className='introductory-popup__inner'>
-        <h2 className='introductory-popup__title'>Сравни числа и выбери большее.</h2>
-        <p className='introductory-popup__subject'>Смотри на центральную точку, при этом выбирай большее число. И постарайся делать это как можно быстрее</p>
+        <h2 className='introductory-popup__title'>{firstInformation}</h2>
+        <p className='introductory-popup__subject'>{secondInformation}</p>
 
-        <button className='button-start' onClick={handleClick}>Начать</button>
+        <Link to={`/${taskID}`} className='button-start' onClick={handleClick}>Начать</Link>
       </div>
     </div>
   )

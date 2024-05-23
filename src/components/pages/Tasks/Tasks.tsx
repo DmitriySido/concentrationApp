@@ -12,10 +12,17 @@ function Tasks(){
     },
     {
       taskName: 'Лишняя фигура',
-      firstInformation: 'Найди лишнюю фигуру среди других фигур',
-      secondInformation: 'Ищи лишнюю фигуру и делай это как можно быстрее',
+      firstInformation: 'Найди лишнюю фигуру среди других фигур.',
+      secondInformation: 'Ищи лишнюю фигуру и делай это как можно быстрее.',
       progress: 0,
       taskID: 'ExtraPiece'
+    },
+    {
+      taskName: 'Количество квадратов',
+      firstInformation: 'Посчитай количество квадратов.',
+      secondInformation: 'Считай количество зелёных квадратов и отвечай как можно быстрее.',
+      progress: 0,
+      taskID: 'NumberOfSquares'
     },
   ]
 

@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  cursor: pointer;
 }
 
 .task-item__inner h2{

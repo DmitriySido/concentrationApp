@@ -49,7 +49,6 @@ function LargerNumber({stateHeader}: ILargerNumberProps){
     compareNumbers(side)
   }
   
-
   return(
     <div className="task pages__wrapper task-pages">
       <div className='larger-number__inner'>

@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Timer.css'
 import PopupPerRound from '../../../popups/popupPerRound/PopupPerRound'
+import { IAnswers } from '../../../utils/interfaces';
 
-interface ITimerProps {
-  rightAnswers: number,
-  wrongAnswers: number,
+interface ITimerProps extends IAnswers{
   stateHeader: (state: boolean) => void,
 }
 

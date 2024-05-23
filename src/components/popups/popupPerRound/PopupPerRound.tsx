@@ -1,9 +1,8 @@
 import ExitButton from '../../UI/moreNavigation/exitButton/ExitButton'
+import { IAnswers } from '../../utils/interfaces'
 import './PopupPerRound.css'
 
-interface IPopupPerRoundProps {
-  rightAnswers: number,
-  wrongAnswers: number,
+interface IPopupPerRoundProps extends IAnswers{
   stateHeader: (state: boolean) => void,
 }
 
@@ -15,10 +14,8 @@ const PopupPerRound = ({ rightAnswers, wrongAnswers, stateHeader }: IPopupPerRou
         <h2>Правильных ответов: {rightAnswers}</h2>
         <br />
         <h2>Неправильных ответов: {wrongAnswers}</h2>
-        <br />
-        <br />
-        <br />
-        <ExitButton stateHeader={stateHeader}/>
+
+        <ExitButton stateHeader={stateHeader} buttonClassName={'popup-button-exit'}/>
       </div>
     </div>
   )

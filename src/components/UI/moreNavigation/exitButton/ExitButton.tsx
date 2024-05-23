@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import './ExitButton.css'
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 interface IExitButtonProps {
-  stateHeader: (state: boolean) => void;
+  stateHeader: (state: boolean) => void,
+  buttonClassName?: string,
 }
 
 
-const ExitButton = ({ stateHeader }: IExitButtonProps) => {
+const ExitButton = ({ stateHeader, buttonClassName = 'task-exit-button' }: IExitButtonProps) => {
 
   useEffect(() => {
     stateHeader(false)  // Меняем состояние sidePanelNavigation при загрузке страницы
@@ -16,7 +17,7 @@ const ExitButton = ({ stateHeader }: IExitButtonProps) => {
   const buttonExit = () => stateHeader(true)
 
   return(
-    <Link to='/' className='exit-button' onClick={buttonExit}>Выйти</Link>
+    <Link to='/tasks' className={`exit-button ${buttonClassName}`} onClick={buttonExit}>Выйти</Link>
   )
 }
 
